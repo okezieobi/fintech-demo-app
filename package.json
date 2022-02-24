@@ -1,0 +1,46 @@
+{
+  "name": "fintech-demo-app",
+  "version": "1.0.0",
+  "description": "A fintech demo app using NodeJS, KnexORM and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okezieobi/fintech-demo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okezieobi/fintech-demo-app/issues"
+  },
+  "homepage": "https://github.com/okezieobi/fintech-demo-app#readme",
+   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "class-validator": "^0.13.2",
+    "cors": "latest",
+    "debug": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "latest",
+    "swagger-jsdoc": "latest",
+    "swagger-ui-express": "latest"
+  },
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/node": "latest",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "latest",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "jest-extended": "^2.0.0",
+    "nodemon": "latest"
+  }
+}
