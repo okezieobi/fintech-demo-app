@@ -34,7 +34,8 @@
     "morgan": "latest",
     "mysql": "^2.18.1",
     "swagger-jsdoc": "latest",
-    "swagger-ui-express": "latest"
+    "swagger-ui-express": "latest",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/cli": "latest",
