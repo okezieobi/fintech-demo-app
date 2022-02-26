@@ -10,13 +10,13 @@ import { createServer } from 'http';
 
 import app from './app';
 
-const debug = debugModule('fintech-app-demo:server');
+const debug = debugModule('fintech-demo-app:server');
 
 /**
  * Normalize a port into a number, string, or false.
  */
 
-function normalizePort(val = '5000') {
+function normalizePort(val) {
   const port = parseInt(val, 10);
 
   if (Number.isNaN(port)) {
@@ -36,7 +36,7 @@ function normalizePort(val = '5000') {
  * Get port from environment and store in Express.
  */
 
-const port = normalizePort(process.env.PORT);
+const port = normalizePort(process.env.PORT ?? '5000');
 app.set('port', port);
 
 /**
