@@ -2,7 +2,6 @@ export default class AppError extends Error {
   constructor(message = 'Unspecified error', type = 'App', data = {}) {
     // Pass remaining arguments (including vendor specific ones) to parent constructor
     super(message);
-    // Set the prototype explicitly.
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, AppError);
     }
